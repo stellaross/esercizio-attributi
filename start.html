@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Lezione HTML</title>
+</head>
+
+<body>
+    <form action="file.php" method="post">
+        <div>
+            <button type="submit" disabled>Disabilitato</button>
+        </div>
+        <div>
+            <label for="quantity">Scegli la quantità:</label>
+            <input type="number" name="quantity" id="quantity" min="0" max="100" step="2" autofocus>
+        </div>
+        <div>
+            <input type="checkbox" name="policy" id="privacy-policy" checked>
+            <label for="privacy-policy">Ho letto e accetto le condizioni.</label>
+        </div>
+        <div>
+            <label for="start">Disponibile a partire da:</label>
+            <input type="date" name="start" id="start" max="2021-10-15" >
+        </div>
+        
+    </form>
+
+</body>
+
+</html>
